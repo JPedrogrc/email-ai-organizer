@@ -1,0 +1,32 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.venv/
+ENV/
+.env
+.env.*
+
+# Google API Credentials (SECURITY!)
+credentials.json
+token.json
+
+# Local database / state
+queue.json
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
