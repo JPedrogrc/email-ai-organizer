@@ -28,7 +28,7 @@ Um organizador de e-mails inteligente que utiliza a **API do Gmail** para buscar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/email-ai-organizer.git
+   git clone https://github.com/JPedrogrc/Automa-o-de-Emails-com-IA
    cd email-ai-organizer
    ```
 
@@ -61,4 +61,4 @@ python main.py
 *Na primeira execução, uma aba do navegador abrirá para você autorizar o acesso à sua conta do Gmail.*
 
 ---
-Desenvolvido por [João Pedro Garcia] - [Seu LinkedIn]
+Desenvolvido por João Pedro Garcia - [LinkedIn](https://www.linkedin.com/in/jpedrogrc/)
