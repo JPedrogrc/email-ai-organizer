@@ -1,14 +1,22 @@
 # 📧 AI Email Organizer
 
-Um organizador de e-mails inteligente que utiliza a **API do Gmail** para buscar mensagens não lidas e a **IA (Llama 3 via Groq)** para classificar e resumir automaticamente seu conteúdo.
+Um organizador de e-mails inteligente que automatiza a triagem e o resumo de mensagens usando IA, reduzindo o tempo gasto na leitura e priorização de e-mails.
 
 ## 🚀 Funcionalidades
 
-- **Integração com Gmail:** Busca e-mails automaticamente usando OAuth2.
-- **Classificação Inteligente:** Categoriza e-mails em `Faculdade`, `Programação`, `Importante` ou `Promoção/Lixo`.
-- **Resumos Concisos:** Gera resumos de uma única linha para leitura rápida.
-- **Gerenciamento de Fila:** Sistema de persistência local (`queue.json`) para respeitar limites de processamento diário.
-- **Filtros Personalizados:** Ignora automaticamente e-mails de abas de Promoções e Redes Sociais.
+- **Automação de E-mails:** Busca e processa automaticamente mensagens não lidas.
+- **Classificação Inteligente:** Organiza e-mails em categorias relevantes.
+- **Resumos Rápidos:** Gera descrições curtas para leitura eficiente.
+- **Controle de Processamento:** Limita execuções diárias para evitar excessos.
+- **Filtragem Automática:** Ignora conteúdos irrelevantes como promoções.
+  
+## ⚙️ Como funciona
+
+1. Autenticação com a API do Gmail via OAuth2.
+2. Coleta de e-mails não lidos da caixa de entrada.
+3. Envio do conteúdo para a IA (Llama 3 via Groq).
+4. Classificação e geração de resumo com base no contexto.
+5. Persistência dos dados em `queue.json` para controle de execução.
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -28,7 +36,7 @@ Um organizador de e-mails inteligente que utiliza a **API do Gmail** para buscar
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/JPedrogrc/Automa-o-de-Emails-com-IA
+   git clone https://github.com/JPedrogrc/email-ai-organizer
    cd email-ai-organizer
    ```
 
